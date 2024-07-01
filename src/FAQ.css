@@ -1,0 +1,40 @@
+/* src/FAQ.css */
+.faq {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .faq h2 {
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    cursor: pointer;
+  }
+  
+  .faq-item p {
+    margin-top: 10px;
+    display: none;
+  }
+  
+  .faq-item h3:after {
+    content: '+';
+    float: right;
+  }
+  
+  .faq-item.open h3:after {
+    content: '-';
+  }
+  
+  .faq-item.open p {
+    display: block;
+  }

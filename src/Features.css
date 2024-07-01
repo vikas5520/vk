@@ -1,0 +1,24 @@
+/* src/Features.css */
+.features {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .features h2 {
+    margin-bottom: 10px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: #495057;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 8px;
+  }
